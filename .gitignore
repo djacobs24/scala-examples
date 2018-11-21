@@ -1,2 +1,6 @@
 *.class
 *.log
+
+# Do not check in files generated from sbt
+target/
+project/
