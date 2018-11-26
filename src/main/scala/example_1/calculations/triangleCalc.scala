@@ -5,8 +5,8 @@ import scala.math.sqrt
 import scala.math.abs
 
 /**
-*   TriangleCalc holds the logic for triangle calculations
-*/
+ *  TriangleCalc holds the logic for triangle calculations
+ */
 case class TriangleCalc(triangle: Triangle) extends ShapeCalc {
 
     override def getArea() = {

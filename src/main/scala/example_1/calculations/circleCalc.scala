@@ -4,8 +4,8 @@ import models.Circle
 import scala.math.Pi
 
 /**
-*   CircleCalc holds the logic for circle calculations
-*/
+ *  CircleCalc holds the logic for circle calculations
+ */
 case class CircleCalc(circle: Circle) extends ShapeCalc {
 
     override def getArea() = {

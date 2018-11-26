@@ -1,8 +1,8 @@
 package models
 
 /**
-*   A representation of a triangle object
-*/
+ *  A representation of a triangle object
+ */
 case class Triangle (
     color: PrimeColor,
     sideOne: Float,

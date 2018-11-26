@@ -1,8 +1,8 @@
 package models
 
 /**
-*   A representation of a circle object
-*/
+ *  A representation of a circle object
+ */
 case class Circle (
     color: PrimeColor,
     radius: Float,

@@ -5,10 +5,13 @@ import calculations._
 import scala.math.Pi
 
 /**
-*   Main is where the application will enter
-*/
+ *  Main is where the application will enter
+ */
 object Main extends App {
 
+    /**
+     *
+     */
     // Create the shapes
     val s = Square(Red, 2)
     val r = Rectangle(Blue, 2, 3)

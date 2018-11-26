@@ -1,8 +1,8 @@
 package models
 
 /**
-*   PrimeColor represents valid prime colors
-*/
+ *  PrimeColor represents valid prime colors
+ */
 sealed trait PrimeColor
 
 case object Red extends PrimeColor
