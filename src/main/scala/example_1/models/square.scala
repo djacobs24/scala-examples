@@ -5,5 +5,6 @@ package models
 */
 case class Square (
     color: String,
-    side: Float
+    side: Float,
+    isPolygon: Boolean = true
 ) extends Shape

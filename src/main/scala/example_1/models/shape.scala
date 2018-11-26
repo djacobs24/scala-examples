@@ -5,4 +5,5 @@ package models
 */
 trait Shape {
     val color: String
+    val isPolygon: Boolean
 }

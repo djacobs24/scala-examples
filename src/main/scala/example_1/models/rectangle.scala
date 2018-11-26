@@ -4,7 +4,8 @@ package models
 *   A representation of a rectangle object
 */
 case class Rectangle (
-    val color: String,
-    val length: Float,
-    val width: Float 
+    color: String,
+    length: Float,
+    width: Float,
+    isPolygon: Boolean = true
 ) extends Shape
