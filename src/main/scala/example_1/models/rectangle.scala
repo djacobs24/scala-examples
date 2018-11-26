@@ -1,5 +1,8 @@
 package models
 
+/**
+*   A representation of a rectangle object
+*/
 case class Rectangle (
     val name: String,
     val length: Float,

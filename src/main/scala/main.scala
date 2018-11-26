@@ -3,6 +3,9 @@ package example_1
 import models._
 import calculations._
 
+/**
+*   Main is where the application will enter
+*/
 object Main extends App {
 
     val s = Square("square", 2)
