@@ -8,15 +8,13 @@ import calculations._
 */
 object Main extends App {
 
-    val s = Square("square", 2)
-    val sArea = SquareCalc(s).getArea()
-    println(sArea)
+    val s = Square("Orange", 2)
+    SquareCalc(s).displayCalculations()
 
-    val r = Rectangle("rectangle", 2, 4)
-    val rArea = RectangleCalc(r).getArea()
-    println(rArea)
+    val r = Rectangle("Green", 2, 4)
+    RectangleCalc(r).displayCalculations()
 
-    val t = Triangle("triangle", 8, 7, 3)
-    val tArea = TriangleCalc(t).getArea()
-    println(tArea)
+    val t = Triangle("Red", 8, 7, 3)
+    TriangleCalc(t).displayCalculations()
+
 }

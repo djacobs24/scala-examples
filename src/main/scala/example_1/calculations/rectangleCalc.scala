@@ -19,4 +19,13 @@ case class RectangleCalc(rectangle: Rectangle) extends ShapeCalc {
         length * 2 + width * 2
     }
 
+    override def displayCalculations() = {
+        val color = rectangle.color.toLowerCase
+        val length = rectangle.length
+        val width = rectangle.width
+        val area = RectangleCalc(rectangle).getArea()
+        val perimeter = RectangleCalc(rectangle).getPerimeter()
+        println("The " + color + " rectangle with a length of " + length + " and a height of " + width + " has an area of " + area + " and perimeter of " + perimeter + ".")
+    }
+
 }

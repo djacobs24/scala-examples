@@ -4,6 +4,6 @@ package models
 *   A representation of a square object
 */
 case class Square (
-    name: String,
+    color: String,
     side: Float
 ) extends Shape

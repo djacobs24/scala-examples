@@ -25,4 +25,14 @@ case class TriangleCalc(triangle: Triangle) extends ShapeCalc {
         sideOne + sideTwo + sideThree
     }
 
+    override def displayCalculations() = {
+        val color = triangle.color.toLowerCase
+        val sideOne = triangle.sideOne
+        val sideTwo = triangle.sideTwo
+        val sideThree = triangle.sideThree
+        val area = TriangleCalc(triangle).getArea()
+        val perimeter = TriangleCalc(triangle).getPerimeter()
+        println("The " + color + " triangle with sides of " + sideOne + ", " + sideTwo + ", and " + sideThree + " has an area of " + area + " and perimeter of " + perimeter + ".")
+    }
+
 }

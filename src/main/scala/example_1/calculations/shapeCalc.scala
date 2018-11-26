@@ -7,5 +7,6 @@ abstract class ShapeCalc  {
 
     def getArea: Float
     def getPerimeter: Float
+    def displayCalculations
 
 }
