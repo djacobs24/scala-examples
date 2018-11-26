@@ -26,7 +26,7 @@ case class TriangleCalc(triangle: Triangle) extends ShapeCalc {
     }
 
     override def displayCalculations() = {
-        val color = triangle.color.toLowerCase
+        val color = triangle.color.toString.toLowerCase
         val sideOne = triangle.sideOne
         val sideTwo = triangle.sideTwo
         val sideThree = triangle.sideThree

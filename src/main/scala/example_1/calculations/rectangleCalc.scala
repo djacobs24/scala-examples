@@ -20,7 +20,7 @@ case class RectangleCalc(rectangle: Rectangle) extends ShapeCalc {
     }
 
     override def displayCalculations() = {
-        val color = rectangle.color.toLowerCase
+        val color = rectangle.color.toString.toLowerCase
         val length = rectangle.length
         val width = rectangle.width
         val area = RectangleCalc(rectangle).getArea()

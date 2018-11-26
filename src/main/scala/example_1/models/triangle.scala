@@ -4,7 +4,7 @@ package models
 *   A representation of a triangle object
 */
 case class Triangle (
-    color: String,
+    color: PrimeColor,
     sideOne: Float,
     sideTwo: Float,
     sideThree: Float,

@@ -8,13 +8,13 @@ import calculations._
 */
 object Main extends App {
 
-    val s = Square("Orange", 2)
+    val s = Square(Red, 2)
     SquareCalc(s).displayCalculations()
 
-    val r = Rectangle("Green", 2, 4)
+    val r = Rectangle(Blue, 2, 4)
     RectangleCalc(r).displayCalculations()
 
-    val t = Triangle("Red", 8, 7, 3)
+    val t = Triangle(Yellow, 8, 7, 3)
     TriangleCalc(t).displayCalculations()
 
 }
