@@ -13,8 +13,8 @@ case class TriangleCalc(triangle: Triangle) extends ShapeCalc {
         val sideOne = triangle.sideOne
         val sideTwo = triangle.sideTwo
         val sideThree = triangle.sideThree
-        val perimeter = getPerimeter() / 2
-        val beforeSqrt = perimeter * (perimeter - sideOne) * (perimeter - sideTwo) * (perimeter - sideThree)
+        val halfPerimeter = getPerimeter() / 2
+        val beforeSqrt = halfPerimeter * (halfPerimeter - sideOne) * (halfPerimeter - sideTwo) * (halfPerimeter - sideThree)
         sqrt(beforeSqrt).toFloat
     }
 
