@@ -17,4 +17,7 @@ object Main extends App {
     val t = Triangle(Yellow, 8, 7, 3)
     TriangleCalc(t).displayCalculations()
 
+    val c = Circle(Red, 3)
+    CircleCalc(c).displayCalculations()
+
 }
