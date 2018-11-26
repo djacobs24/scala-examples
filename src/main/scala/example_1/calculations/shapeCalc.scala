@@ -6,5 +6,6 @@ package calculations
 abstract class ShapeCalc  {
 
     def getArea: Float
+    def getPerimeter: Float
 
 }

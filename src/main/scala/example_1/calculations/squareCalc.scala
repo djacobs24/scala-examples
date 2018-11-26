@@ -12,4 +12,9 @@ case class SquareCalc(square: Square) extends ShapeCalc {
         side * side
     }
 
+    override def getPerimeter() = {
+        val side = square.side
+        side * 4
+    }
+
 }

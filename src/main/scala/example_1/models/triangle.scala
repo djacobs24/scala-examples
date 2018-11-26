@@ -5,6 +5,7 @@ package models
 */
 case class Triangle (
     val name: String,
-    val base: Float,
-    val height: Float
+    val sideOne: Float,
+    val sideTwo: Float,
+    val sideThree: Float
 ) extends Shape

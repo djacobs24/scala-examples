@@ -13,4 +13,10 @@ case class RectangleCalc(rectangle: Rectangle) extends ShapeCalc {
         length * width
     }
 
+    override def getPerimeter() = {
+        val length = rectangle.length
+        val width = rectangle.width
+        length * 2 + width * 2
+    }
+
 }
