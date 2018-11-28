@@ -21,8 +21,8 @@ case class CircleCalc(circle: Circle) extends ShapeCalc {
     override def displayCalculations() = {
         val color = circle.color.toString.toLowerCase
         val radius = circle.radius
-        val area = CircleCalc(circle).getArea()
-        val perimeter = CircleCalc(circle).getPerimeter()
+        val area = CircleCalc(circle).getArea
+        val perimeter = CircleCalc(circle).getPerimeter
         println("The " + color + " circle with a radius of " + radius + " has an area of " + area + " and perimeter of " + perimeter + ".")
     }
 

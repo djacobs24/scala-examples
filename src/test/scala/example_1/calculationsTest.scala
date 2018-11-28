@@ -16,14 +16,14 @@ class calculationsTest extends FlatSpec with Matchers {
     /**
      *  Making the calculations
      */
-    val squareArea = SquareCalc(s).getArea()
-    val squarePerimeter = SquareCalc(s).getPerimeter()
-    val rectangleArea = RectangleCalc(r).getArea()
-    val rectanglePerimeter = RectangleCalc(r).getPerimeter()
-    val triangleArea = TriangleCalc(t).getArea()
-    val trianglePerimeter = TriangleCalc(t).getPerimeter()
-    val circleArea = CircleCalc(c).getArea()
-    val circlePerimeter = CircleCalc(c).getPerimeter()
+    val squareArea = SquareCalc(s).getArea
+    val squarePerimeter = SquareCalc(s).getPerimeter
+    val rectangleArea = RectangleCalc(r).getArea
+    val rectanglePerimeter = RectangleCalc(r).getPerimeter
+    val triangleArea = TriangleCalc(t).getArea
+    val trianglePerimeter = TriangleCalc(t).getPerimeter
+    val circleArea = CircleCalc(c).getArea
+    val circlePerimeter = CircleCalc(c).getPerimeter
 
     val roundingMode = BigDecimal.RoundingMode.HALF_UP
 

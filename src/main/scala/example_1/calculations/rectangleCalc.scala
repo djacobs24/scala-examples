@@ -23,8 +23,8 @@ case class RectangleCalc(rectangle: Rectangle) extends ShapeCalc {
         val color = rectangle.color.toString.toLowerCase
         val length = rectangle.length
         val width = rectangle.width
-        val area = RectangleCalc(rectangle).getArea()
-        val perimeter = RectangleCalc(rectangle).getPerimeter()
+        val area = RectangleCalc(rectangle).getArea
+        val perimeter = RectangleCalc(rectangle).getPerimeter
         println("The " + color + " rectangle with a length of " + length + " and a height of " + width + " has an area of " + area + " and perimeter of " + perimeter + ".")
     }
 
