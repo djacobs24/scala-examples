@@ -1,5 +1,10 @@
+package concepts
+
 object PolymorphicMethod {
 
+    /**
+     *  findFirst finds the index of the object in the array
+     */
     def findFirst[A](as: Array[A], p: A => Boolean): Int = {
         @annotation.tailrec
         def loop(n: Int): Int =
