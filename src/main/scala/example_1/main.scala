@@ -21,7 +21,6 @@ object Main {
         RectangleCalc(r).displayCalculations
         TriangleCalc(t).displayCalculations
         CircleCalc(c).displayCalculations
-
     }
 
 }
