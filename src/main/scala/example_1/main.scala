@@ -1,4 +1,4 @@
-package scala
+package example_1
 
 import models._
 import calculations._
