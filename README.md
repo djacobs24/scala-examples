@@ -14,4 +14,9 @@
 **Example 1**
 
 - [Reference](https://www.scala-exercises.org/scala_tutorial)
-- Shape calculations using traits, enums, abstract classes, and case classes.
+- A shape calculations example using traits, enums, abstract classes, and case classes.
+
+**Example 2**
+
+- Reference - Functional Programming in Scala by Paul Chiusano
+- Scala concepts found in reading Functional Programming in Scala.
