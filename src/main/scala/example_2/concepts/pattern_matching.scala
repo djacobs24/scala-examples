@@ -10,11 +10,11 @@ object PatternMatching {
     def showNotification(notification: Notification): String = {
         notification match {
             case Email(sender, title, _) =>
-                s"You got an email from $sender with title: $title"
+                s"You got an email from $sender! Title: $title"
             case SMS(number, message) =>
                 s"You got an SMS from $number! Message: $message"
             case VoiceRecording(name, link) =>
-                s"You received a voice recording from $name! Click the link to hear it: $link"
+                s"You received a voice recording from $name! Link: $link"
         }
     }
 
