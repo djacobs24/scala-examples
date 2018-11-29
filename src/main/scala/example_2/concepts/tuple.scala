@@ -29,7 +29,6 @@ object Tuple {
      *  printAllDistancesGreaterThan will print the tuples distances if greater than the parameter
      */
     def printAllDistancesGreaterThan(i: Int) = {
-        println("**")
         for (planetDistanceFromSun <- planetsDistanceFromSun) if (planetDistanceFromSun._2 > i) println(planetDistanceFromSun._2)
     }
 

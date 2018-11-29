@@ -20,7 +20,7 @@
 
 - Reference 1 - Functional Programming in Scala by Paul Chiusano
 - [Reference 2](https://docs.scala-lang.org/tour/tour-of-scala.html)
-- Scala concepts found in reading Functional Programming in Scala.
+- Scala concepts found in reading Functional Programming in Scala and taking the tour of Scala.
 
 **Example 3**
 
