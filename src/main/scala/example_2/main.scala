@@ -9,6 +9,7 @@ object Main {
         /**
          *  Tuple
          */
+        println("\n=====Tuple=====") 
         Tuple.printAllPlanetsAndDistancesFromSun()
         Tuple.printAllPlanets()
         Tuple.printAllDistances()
@@ -17,22 +18,30 @@ object Main {
         /**
          *  Polymorphic Methods
          */
-
-        // Display the index
+        println("\n=====Polymorphic Methods=====") 
         println(PolymorphicMethod.findFirst(Array(0, 1, 2, 3), (x: Int) => x == 2))
 
         /**
          *  Pattern Matching
          */
-
-        // Create the notifications
+        println("\n=====Pattern Matching=====") 
         val email = Email("Susan", "Meeting on Tuesday", "Are we still meeting?")
         val sms = SMS("419-262-4600", "Are you there?")
         val voiceRecording = VoiceRecording("Tom", "voicerecording.org/id/12345")
-        // Display the notifications
         println(PatternMatching.showNotification(email))
         println(PatternMatching.showNotification(sms))
         println(PatternMatching.showNotification(voiceRecording))
+
+        /**
+         *  Mixin
+         */
+        println("\n=====Mixin=====") 
+        val loudEmail = new Mixin.LoudEmail
+        val loudSMS = new Mixin.LoudSMS
+        println(loudEmail.message)
+        println(loudEmail.loudMessage)
+        println(loudSMS.message)
+        println(loudSMS.loudMessage)
     }
     
 }
