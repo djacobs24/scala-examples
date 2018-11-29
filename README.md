@@ -20,3 +20,7 @@
 
 - Reference - Functional Programming in Scala by Paul Chiusano
 - Scala concepts found in reading Functional Programming in Scala.
+
+**Example 3**
+- [Reference](http://aperiodic.net/phil/scala/s-99/)
+- S-99: Ninety-Nine Scala Problems
