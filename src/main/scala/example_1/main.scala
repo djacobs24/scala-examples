@@ -4,9 +4,6 @@ import models._
 import calculations._
 import scala.math.Pi
 
-/**
- *  Main is where the application will enter
- */
 object Main {
 
     def main(args: Array[String]): Unit = {

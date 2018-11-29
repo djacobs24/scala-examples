@@ -3,9 +3,6 @@ package example_2
 import concepts._
 import models._
 
-/**
- *  Main is where the application will enter
- */
 object Main {
 
     def main(args: Array[String]): Unit = {
