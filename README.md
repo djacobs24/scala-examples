@@ -18,7 +18,8 @@
 
 **Example 2**
 
-- Reference - Functional Programming in Scala by Paul Chiusano
+- Reference 1 - Functional Programming in Scala by Paul Chiusano
+- [Reference 2](https://docs.scala-lang.org/tour/tour-of-scala.html)
 - Scala concepts found in reading Functional Programming in Scala.
 
 **Example 3**
