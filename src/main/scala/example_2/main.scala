@@ -7,6 +7,14 @@ object Main {
 
     def main(args: Array[String]): Unit = {
         /**
+         *  Tuple
+         */
+        Tuple.printAllPlanetsAndDistancesFromSun()
+        Tuple.printAllPlanets()
+        Tuple.printAllDistances()
+        Tuple.printAllDistancesGreaterThan(110)
+
+        /**
          *  Polymorphic Methods
          */
 
