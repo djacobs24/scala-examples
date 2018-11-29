@@ -1,7 +1,5 @@
 package concepts
 
-import models._
-
 object Mixin {
 
     abstract class Message {

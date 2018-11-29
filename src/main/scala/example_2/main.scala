@@ -42,6 +42,13 @@ object Main {
         println(loudEmail.loudMessage)
         println(loudSMS.message)
         println(loudSMS.loudMessage)
+
+        /**
+         *  Higher Order Function
+         */
+        println("\n=====Higher Order Function=====") 
+        HigherOrderFunction.printURL()
+        HigherOrderFunction.printMath()
     }
     
 }
