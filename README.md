@@ -1,28 +1,32 @@
 # scala-examples
 
-**Setup**
+## Setup
 
 - Build project structure `touch build.sbt && mkdir src && cd src && mkdir main && cd main && mkdir scala && cd .. && mkdir test && cd test && mkdir scala && cd ../../`
 
-**SBT**
+## SBT
 
 - Start sbt `sbt`
-- Compile (in sbt) `compile` or `~compile`
-- Run (in sbt) `run` or `~run`
-- Test (in sbt) `test` or `~test`
+- Compile (sbt) `compile` or `~compile`
+- Run (sbt) `run` or `~run`
+- Test (sbt) `test` or `~test`
+- Exit (sbt) `exit`
 
-**Example 1**
+## Example 1
 
-- [Reference](https://www.scala-exercises.org/scala_tutorial)
-- A shape calculations example using traits, enums, abstract classes, and case classes.
+- Reference 1 - [Scala Tutorial](https://www.scala-exercises.org/scala_tutorial)
+- Description - Shape calculations
+- Content - Enums, Traits, Abstract classes, Case classes
 
-**Example 2**
+## Example 2
 
 - Reference 1 - Functional Programming in Scala by Paul Chiusano
-- [Reference 2](https://docs.scala-lang.org/tour/tour-of-scala.html)
-- Scala concepts found in reading Functional Programming in Scala and taking the tour of Scala.
+- Reference 2 - [Tour of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html)
+- Description - Scala concepts found while reading Functional Programming in Scala and taking the tour of Scala.
+- Content - Tuples, Pattern Matching, Polymorphic Methods
 
-**Example 3**
+## Example 3
 
-- [Reference](http://aperiodic.net/phil/scala/s-99/)
-- S-99: Ninety-Nine Scala Problems
+- Reference 1 - [Ninety-Nine Scala Problems](http://aperiodic.net/phil/scala/s-99/)
+- Description - Solving the problems found in the link above.
+- Content - Lists, Pattern Matching
