@@ -25,7 +25,7 @@
 - Reference 1 - Functional Programming in Scala by Paul Chiusano
 - Reference 2 - [Tour of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html)
 - Description - Scala concepts found while reading Functional Programming in Scala and taking the tour of Scala.
-- Content - Tuples, Mixins, Higher-Order Functions, Pattern Matching, Polymorphic Methods
+- Content - Tuples, Mixins, Higher-Order Functions, Pattern Matching, Polymorphic Methods, Currying, Regex
 
 ### Example 3
 
