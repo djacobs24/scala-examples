@@ -54,12 +54,9 @@ object Main {
          *  Currying
          */
         println("\n=====Currying=====") 
-        println(Currying.totalMicrowaveCost1)
-        println(Currying.totalRefrigeratorCost1)
-        println(Currying.totalOvenCost1)
-        println(Currying.totalMicrowaveCost2)
-        println(Currying.totalRefrigeratorCost2)
-        println(Currying.totalOvenCost2)
+        Currying.printMicrowaveCost()
+        Currying.printRefrigeratorCost()
+        Currying.printOvenCost()
     }
     
 }
