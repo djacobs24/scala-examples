@@ -3,7 +3,7 @@ package models
 /**
  *  A representation of all notification objects
  */
-abstract class Notification
+sealed trait Notification
 
 case class Email(
     sender: String, 
