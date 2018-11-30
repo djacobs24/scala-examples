@@ -57,6 +57,13 @@ object Main {
         Currying.printMicrowaveCost()
         Currying.printRefrigeratorCost()
         Currying.printOvenCost()
+
+        /**
+         *  Regex
+         */
+        println("\n=====Regex=====") 
+        println(Regex.validPassword("david"))
+        println(Regex.validPassword("d4v1d"))
     }
     
 }
