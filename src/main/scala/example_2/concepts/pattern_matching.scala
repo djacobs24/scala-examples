@@ -18,4 +18,14 @@ object PatternMatching {
         }
     }
 
+    val x = List(1,2,3,4,5) match {
+        case Nil => 42
+        case _ => 101
+    }
+
+    val y = List(1,2,3,4,5) match {
+        case Nil => "empty"
+        case 1 :: 2 :: 3 :: 4 :: 5 :: Nil => "equal"
+    }
+
 }
