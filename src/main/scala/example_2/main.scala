@@ -7,12 +7,17 @@ object Main {
 
     def main(args: Array[String]): Unit = {
         /**
+         *  List
+         */
+        Lists.displayListData
+
+        /**
          *  Tuple
          */
         println("\n=====Tuple=====") 
-        Tuple.printAllPlanetsAndDistancesFromSun()
-        Tuple.printAllPlanets()
-        Tuple.printAllDistances()
+        Tuple.printAllPlanetsAndDistancesFromSun
+        Tuple.printAllPlanets
+        Tuple.printAllDistances
         Tuple.printAllDistancesGreaterThan(110)
 
         /**
@@ -31,6 +36,8 @@ object Main {
         println(PatternMatching.showNotification(email))
         println(PatternMatching.showNotification(sms))
         println(PatternMatching.showNotification(voiceRecording))
+        println(PatternMatching.x)
+        println(PatternMatching.y)
 
         /**
          *  Mixin
