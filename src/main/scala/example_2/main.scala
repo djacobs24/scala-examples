@@ -13,6 +13,12 @@ object Main {
         Currying.displayCurryingData
 
         /**
+         *  For Comprehension
+         */
+        println("\n=====For Comprehension=====") 
+        ForComprehensions.displayForComprehensionData
+
+        /**
          *  Higher Order Function
          */
         println("\n=====Higher Order Function=====") 
@@ -29,6 +35,12 @@ object Main {
          */
         println("\n=====Mixin=====") 
         Mixin.displayMixinData
+
+        /**
+         *  Options
+         */
+        println("\n=====Options=====") 
+        Options.displayOptionsData
 
         /**
          *  Pattern Matching
