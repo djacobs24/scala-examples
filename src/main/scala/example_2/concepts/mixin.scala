@@ -23,4 +23,14 @@ object Mixin {
 
     class LoudSMS extends SMS with LoudMessage
 
+    // displayMixinData displays the data
+    def displayMixinData() {
+        val loudEmail = new LoudEmail
+        val loudSMS = new LoudSMS
+        println(loudEmail.message)
+        println(loudEmail.loudMessage)
+        println(loudSMS.message)
+        println(loudSMS.loudMessage)
+    }
+
 }

@@ -2,9 +2,7 @@ package concepts
 
 object PolymorphicMethod {
 
-    /**
-     *  findFirst finds the index of the object in the array
-     */
+    // findFirst finds the index of the object in the array
     def findFirst[A](as: Array[A], p: A => Boolean): Int = {
         @annotation.tailrec
         def loop(n: Int): Int =
@@ -13,6 +11,11 @@ object PolymorphicMethod {
             else loop(n + 1)
             
         loop(0)
+    }
+
+    // displayPolymorphicMethodData displays the data
+    def displayPolymorphicMethodData() {
+        println(findFirst(Array(0, 1, 2, 3), (x: Int) => x == 2))
     }
 
 }

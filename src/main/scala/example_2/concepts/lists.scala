@@ -2,7 +2,7 @@ package concepts
 
 object Lists {
 
-    // A sample list to play with
+    // An example list
     val days = List("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 
     // Returns a list of the first 3 elements
@@ -17,6 +17,7 @@ object Lists {
     // True if any elements of the list start with "W"
     val oneDayStartsWithW = days.exists(_.startsWith("W"))
 
+    // displayListData displays the data
     def displayListData() {
         println("All days: " + days)
         println("First 3 days: " + firstThreeDays)

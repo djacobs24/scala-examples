@@ -41,15 +41,26 @@ object Currying {
     val totalRefrigeratorCost2 = vatAndServiceChargeApplied(refrigeratorCost)
     val totalOvenCost2 = vatAndServiceChargeApplied(ovenCost)
 
+    // printMicrowaveCost prints the cost of the microwave
     def printMicrowaveCost() {
         println(s"$microwaveName: $totalMicrowaveCost2")
     }
 
+    // printRefrigeratorCost prints the cost of the refrigerator
     def printRefrigeratorCost() {
         println(s"$refrigeratorName: $totalRefrigeratorCost2")
     }
 
+    // printOvenCost prints the cost of the oven
     def printOvenCost() {
         println(s"$ovenName: $totalOvenCost2")
     }
+
+    // displayCurryingData displays the data
+    def displayCurryingData() {
+        printMicrowaveCost()
+        printRefrigeratorCost()
+        printOvenCost()
+    }
+    
 }
