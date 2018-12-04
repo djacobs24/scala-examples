@@ -5,8 +5,8 @@ import models._
 object Currying {
 
     // Create the appliances
-    val microwave = models.Microwave(name = "Microwave 1.1", price = 129.99)
-    val refrigerator = models.Refrigerator(name = "Refrigerator 4.6", price = 2199.99)
+    val microwave = models.Microwave(name = "Microwave", version = 1.1, price = 129.99)
+    val refrigerator = models.Refrigerator(name = "Refrigerator", version = 4.6, price = 2199.99)
     val oven = models.Oven()
 
     // Get the appliance prices
@@ -18,6 +18,11 @@ object Currying {
     val microwaveName = microwave.name
     val refrigeratorName = refrigerator.name
     val ovenName = oven.name
+
+    // Get the appliance versions
+    val microwaveVersion = microwave.version
+    val refrigeratorVersion = refrigerator.version
+    val ovenVersion = oven.version
 
     // Value added tax and service charge
     val vat = 6.5
@@ -43,17 +48,17 @@ object Currying {
 
     // printMicrowaveCost prints the cost of the microwave
     def printMicrowaveCost() {
-        println(s"$microwaveName: $totalMicrowaveCost2")
+        println(s"$microwaveName, v$microwaveVersion: $totalMicrowaveCost2")
     }
 
     // printRefrigeratorCost prints the cost of the refrigerator
     def printRefrigeratorCost() {
-        println(s"$refrigeratorName: $totalRefrigeratorCost2")
+        println(s"$refrigeratorName, v$refrigeratorVersion: $totalRefrigeratorCost2")
     }
 
     // printOvenCost prints the cost of the oven
     def printOvenCost() {
-        println(s"$ovenName: $totalOvenCost2")
+        println(s"$ovenName, v$ovenVersion: $totalOvenCost2")
     }
 
     // displayCurryingData displays the data
