@@ -32,3 +32,8 @@
 - Reference 1 - [Ninety-Nine Scala Problems](http://aperiodic.net/phil/scala/s-99/)
 - Description - Solving the problems found in the link above.
 - Content - Lists, Pattern Matching
+
+### Example 4
+- Reference 1 - [Building REST API Web Service](https://medium.com/dive-in-scala/building-rest-api-web-service-using-akka-http-showing-crud-operations-baked-with-redis-d15f4c4bf4d5)
+- Description - REST API
+- Content - AKKA HTTP
