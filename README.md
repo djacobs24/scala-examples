@@ -32,3 +32,14 @@
 - Reference 1 - [Ninety-Nine Scala Problems](http://aperiodic.net/phil/scala/s-99/)
 - Description - Solving the problems found in the link above.
 - Content - Lists, Pattern Matching
+
+### Example 4
+- Reference 1 - [Functional Programming in Scala - YouTube Video](https://www.youtube.com/watch?v=R0jVqeYzs9c&t=5s)
+- Description - Examples based on the link above.
+- Content - Either, Option, Future
+
+### Example 5
+
+- Reference 1 - [Cats](https://typelevel.org/cats/)
+- Description - Examples based on the link above.
+- Content - 
