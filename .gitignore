@@ -1,5 +1,6 @@
 *.class
 *.log
+*.idea
 
 # Do not check in files generated from sbt
 target/
