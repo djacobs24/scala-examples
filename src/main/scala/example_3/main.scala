@@ -9,6 +9,7 @@ object Main {
         P02.run()
         P03.run()
         P04.run()
+        P05.run()
     }
 
 }
