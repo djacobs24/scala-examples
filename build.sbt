@@ -7,10 +7,10 @@ scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8", "-Yparti
 libraryDependencies ++= {
   val scalaTestVersion  = "3.0.5"
   val scalaMockVersion  = "3.4.2"
-  val catVersion        = "1.5.0"
+  val catsVersion       = "1.5.0"
   Seq(
     "org.scalatest"     %% "scalatest"                    % scalaTestVersion  % "test",
     "org.scalamock"     %% "scalamock-scalatest-support"  % scalaMockVersion  % "test",
-    "org.typelevel"     %% "cats-core"                    % catVersion
+    "org.typelevel"     %% "cats-core"                    % catsVersion
   )
 }

@@ -34,6 +34,7 @@
 - Content - Lists, Pattern Matching
 
 ### Example 4
+
 - Reference 1 - [Functional Programming in Scala - YouTube Video](https://www.youtube.com/watch?v=R0jVqeYzs9c&t=5s)
 - Description - Examples based on the link above.
 - Content - Either
