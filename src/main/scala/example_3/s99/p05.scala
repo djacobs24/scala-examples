@@ -5,7 +5,7 @@ import data._
 object P05 {
 
     def run() = {
-        println("\n========== P04 ==========")
+        println("\n========== P05 ==========")
         println(reverseList(Data.list1))
         println(reverseList(Data.list2))
         println(reverseList(Data.list3))
