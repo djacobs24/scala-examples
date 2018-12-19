@@ -1,47 +1,44 @@
 package example_6
 
-import concepts._
-import models._
 import org.scalatest._
+
 
 class Example6Tests extends FlatSpec with Matchers {
 
-    /**
-     *  The find first method should return 2 since the index is at the 3rd position  
-     */
-    "Find first int with int in 3rd position" should "equal 2" in {
-        PolymorphicMethod.findFirst(Array(0, 1, 2, 3), (x: Int) => x == 2) should be (2)
-    }
+  "StringSplosion - Code" should "equal CCoCodCode" in {
+    Challenge.stringSplosion("Code") should be ("CCoCodCode")
+  }
 
-    /**
-     *  The find first method should return -1 since the index does not exist 
-     */
-    "Find first string with non-existent string" should "equal -1" in {
-        PolymorphicMethod.findFirst(Array("bob", "tom", "sam", "liz"), (x: String) => x == "bill") should be (-1)
-    }
+  "StringSplosion - abc" should "equal aababc" in {
+    Challenge.stringSplosion("abc") should be ("aababc")
+  }
 
-    /**
-     *  The show notification method should return the email message
-     */
-     "Show email notification" should "equal 'You got an email from Susan! Title: Meeting on Tuesday'" in {
-        val email = Email("Susan", "Meeting on Tuesday", "Are we still meeting?")
-        PatternMatching.showNotification(email) should be ("You got an email from Susan! Title: Meeting on Tuesday")
-    }
+  "StringSplosion - ab" should "equal aab" in {
+    Challenge.stringSplosion("ab") should be ("aab")
+  }
 
-    /**
-     *  The show notification method should return the sms message
-     */
-     "Show sms notification" should "equal 'You got an SMS from 419-262-4600! Message: Are you there?'" in {
-        val sms = SMS("419-262-4600", "Are you there?")
-        PatternMatching.showNotification(sms) should be ("You got an SMS from 419-262-4600! Message: Are you there?")
-    }
+  "StringSplosion - ''" should "equal ''" in {
+    Challenge.stringSplosion("") should be ("")
+  }
 
-    /**
-     *  The show notification method should return the voice recording message
-     */
-     "Show voice recording notification" should "equal 'You received a voice recording from Tom! Link: voicerecording.org/id/12345'" in {
-        val voiceRecording = VoiceRecording("Tom", "voicerecording.org/id/12345")
-        PatternMatching.showNotification(voiceRecording) should be ("You received a voice recording from Tom! Link: voicerecording.org/id/12345")
-    }
+  "Sum numbers" should "return an integer" in {
+    Challenge.sumNumbers(List()).isValidInt should be (true)
+  }
+
+  "Sum numbers List(4,5,\"g\",\"\",0)" should "return 9" in {
+    Challenge.sumNumbers(List(4,5,"g","",0)) should be (9)
+  }
+
+  "Empty list" should "return false" in {
+    Challenge.canBalance(List()) should be (false)
+  }
+
+  "Balanced list" should "return true" in {
+    Challenge.canBalance(List(1,1,1,2,1)) should be (true)
+  }
+
+  "Unbalanced list" should "return false" in {
+    Challenge.canBalance(List(2,1,1,2,1)) should be (false)
+  }
 
 }
