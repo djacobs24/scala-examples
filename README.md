@@ -43,4 +43,8 @@
 
 - Reference 1 - [Cats](https://typelevel.org/cats/)
 - Description - Examples based on the link above.
-- Content - 
+
+### Example 6
+
+- Reference 1 - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/paths/foundational/)
+- Description - Examples based on the link above.
