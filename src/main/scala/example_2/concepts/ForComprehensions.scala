@@ -1,4 +1,4 @@
-package concepts
+package example_2.concepts
 
 object ForComprehensions {
 
@@ -13,7 +13,7 @@ object ForComprehensions {
     )
 
     // Add all the users in their 20's to the list
-    val twentySomethings = for (user <- userBase if (user.age >=20 && user.age < 30))
+    val twentySomethings: List[String] = for (user <- userBase if user.age >=20 && user.age < 30)
         yield user.name
 
     // displayForComprehensionData displays the data

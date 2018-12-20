@@ -1,4 +1,4 @@
-package models
+package example_2.models
 
 /**
  *  A representation of all notification objects

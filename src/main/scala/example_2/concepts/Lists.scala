@@ -1,4 +1,4 @@
-package concepts
+package example_2.concepts
 
 object Lists {
 
@@ -6,16 +6,16 @@ object Lists {
     val days = List("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 
     // Returns a list of the first 3 elements
-    val firstThreeDays = days.take(3)
+    val firstThreeDays: List[String] = days.take(3)
 
     // Returns a list of all elements while they are less than 9 in length
-    val whileDaysLessThan9Length = days.takeWhile(_.length() < 9)
+    val whileDaysLessThan9Length: List[String] = days.takeWhile(_.length() < 9)
 
     // True if all elements of the list end in "y"
-    val allDaysEndInY = days.forall(_.takeRight(1) == "y")
+    val allDaysEndInY: Boolean = days.forall(_.takeRight(1) == "y")
 
     // True if any elements of the list start with "W"
-    val oneDayStartsWithW = days.exists(_.startsWith("W"))
+    val oneDayStartsWithW: Boolean = days.exists(_.startsWith("W"))
 
     // displayListData displays the data
     def displayListData() {

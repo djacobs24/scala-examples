@@ -1,6 +1,6 @@
-package concepts
+package example_2.concepts
 
-import models._
+import example_2.models._
 
 object PatternMatching {
 
@@ -16,12 +16,12 @@ object PatternMatching {
         }
     }
 
-    val x = List(1,2,3,4,5) match {
+    val x: Int = List(1,2,3,4,5) match {
         case Nil => 42
         case _ => 101
     }
 
-    val y = List(1,2,3,4,5) match {
+    val y: String = List(1,2,3,4,5) match {
         case Nil => "empty"
         case 1 :: 2 :: 3 :: 4 :: 5 :: Nil => "equal"
     }

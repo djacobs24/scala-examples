@@ -1,4 +1,4 @@
-package concepts
+package example_2.concepts
 
 object Mixin {
 
