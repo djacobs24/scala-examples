@@ -1,4 +1,4 @@
-package models
+package example_1.models
 
 /**
  *  PrimeColor represents valid prime colors

@@ -1,4 +1,4 @@
-package models
+package example_1.models
 
 /**
  *  Shape is the base of all "shapes"

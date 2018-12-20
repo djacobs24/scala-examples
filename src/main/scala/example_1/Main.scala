@@ -14,10 +14,10 @@ object Main {
         val c = Circle(Red, 3)
 
         // Display the calculations
-        SquareCalc(s).displayCalculations
-        RectangleCalc(r).displayCalculations
-        TriangleCalc(t).displayCalculations
-        CircleCalc(c).displayCalculations
+        SquareCalc(s).displayCalculations()
+        RectangleCalc(r).displayCalculations()
+        TriangleCalc(t).displayCalculations()
+        CircleCalc(c).displayCalculations()
     }
 
 }

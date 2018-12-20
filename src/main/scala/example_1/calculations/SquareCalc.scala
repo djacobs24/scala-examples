@@ -1,23 +1,23 @@
-package calculations
+package example_1.calculations
 
-import models.Square
+import example_1.models.Square
 
 /**
  *  SquareCalc holds the logic for square calculations
  */
 case class SquareCalc(square: Square) extends ShapeCalc {
 
-    override def getArea() = {
+    override def getArea: Float = {
         val side = square.side
         side * side
     }
 
-    override def getPerimeter() = {
+    override def getPerimeter: Float = {
         val side = square.side
         side * 4
     }
 
-    override def displayCalculations() = {
+    override def displayCalculations(): Unit = {
         val color = square.color.toString.toLowerCase
         val side = square.side
         val area = SquareCalc(square).getArea

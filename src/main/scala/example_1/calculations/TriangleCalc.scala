@@ -1,31 +1,30 @@
-package calculations
+package example_1.calculations
 
-import models.Triangle
+import example_1.models.Triangle
 import scala.math.sqrt
-import scala.math.abs
 
 /**
  *  TriangleCalc holds the logic for triangle calculations
  */
 case class TriangleCalc(triangle: Triangle) extends ShapeCalc {
 
-    override def getArea() = {
+    override def getArea: Float = {
         val sideOne = triangle.sideOne
         val sideTwo = triangle.sideTwo
         val sideThree = triangle.sideThree
-        val halfPerimeter = getPerimeter() / 2
+        val halfPerimeter = getPerimeter / 2
         val beforeSqrt = halfPerimeter * (halfPerimeter - sideOne) * (halfPerimeter - sideTwo) * (halfPerimeter - sideThree)
         sqrt(beforeSqrt).toFloat
     }
 
-    override def getPerimeter() = {
+    override def getPerimeter: Float = {
         val sideOne = triangle.sideOne
         val sideTwo = triangle.sideTwo
         val sideThree = triangle.sideThree
         sideOne + sideTwo + sideThree
     }
 
-    override def displayCalculations() = {
+    override def displayCalculations(): Unit = {
         val color = triangle.color.toString.toLowerCase
         val sideOne = triangle.sideOne
         val sideTwo = triangle.sideTwo

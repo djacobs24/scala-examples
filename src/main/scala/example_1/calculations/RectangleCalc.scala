@@ -1,25 +1,25 @@
-package calculations
+package example_1.calculations
 
-import models.Rectangle
+import example_1.models.Rectangle
 
 /**
  *  RectangleCalc holds the logic for rectangle calculations
  */
 case class RectangleCalc(rectangle: Rectangle) extends ShapeCalc {
 
-    override def getArea() = {
+    override def getArea: Float = {
         val length = rectangle.length
         val width = rectangle.width
         length * width
     }
 
-    override def getPerimeter() = {
+    override def getPerimeter: Float = {
         val length = rectangle.length
         val width = rectangle.width
         length * 2 + width * 2
     }
 
-    override def displayCalculations() = {
+    override def displayCalculations(): Unit = {
         val color = rectangle.color.toString.toLowerCase
         val length = rectangle.length
         val width = rectangle.width

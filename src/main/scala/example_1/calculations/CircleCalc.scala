@@ -1,6 +1,7 @@
-package calculations
+package example_1.calculations
 
-import models.Circle
+import example_1.models.Circle
+
 import scala.math.Pi
 
 /**
@@ -8,17 +9,17 @@ import scala.math.Pi
  */
 case class CircleCalc(circle: Circle) extends ShapeCalc {
 
-    override def getArea() = {
+    override def getArea: Float = {
         val radius = circle.radius
         (Pi * (radius * radius)).toFloat
     }
 
-    override def getPerimeter() = {
+    override def getPerimeter: Float = {
         val radius = circle.radius
         (2 * Pi * radius).toFloat
     }
 
-    override def displayCalculations() = {
+    override def displayCalculations(): Unit = {
         val color = circle.color.toString.toLowerCase
         val radius = circle.radius
         val area = CircleCalc(circle).getArea
