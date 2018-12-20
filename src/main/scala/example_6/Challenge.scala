@@ -26,8 +26,8 @@ object Challenge {
   def sumNumbers[A](list: List[A]): Int = {
     var sum = 0
     for (x <- list) {
-      if (x.getClass.getSimpleName == "Integer" ) {
-        sum += x.asInstanceOf[Int]
+      x match {
+        case y: Integer => sum += y
       }
     }
     sum
@@ -35,10 +35,7 @@ object Challenge {
 
   def canBalance(list: List[Int]): Boolean = {
     if (list.isEmpty) false
-    else {
-      if (list.sum % 2 == 0 ) true
-      else false
-    }
+    else list.sum %2 == 0
   }
 
 }
