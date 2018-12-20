@@ -1,10 +1,10 @@
-package s99
+package example_3.s99
 
-import data._
+import example_3.data._
 
 object P06 {
 
-    def run() = {
+    def run(): Unit = {
         println("\n========== P06 ==========")
         println(isPalindrome(Data.list1))
         println(isPalindrome(Data.list2))

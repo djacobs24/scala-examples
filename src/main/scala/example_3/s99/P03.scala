@@ -1,10 +1,10 @@
-package s99
+package example_3.s99
 
-import data._
+import example_3.data._
 
 object P03 {
 
-    def run() = {
+    def run(): Unit = {
         println("\n========== P03 ==========")
         P03.nthItem(0, Data.list1)
         P03.nthItem(0, Data.list2)
@@ -16,7 +16,7 @@ object P03 {
     }
 
     // nthItem finds the nth element of a list
-    def nthItem[A](i: Int, l: List[A]) = {
+    def nthItem[A](i: Int, l: List[A]): Unit = {
         if (i >= l.size) println("Index out of range")
         else println(l(i))
     }

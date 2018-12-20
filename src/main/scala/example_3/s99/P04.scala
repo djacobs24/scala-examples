@@ -1,10 +1,10 @@
-package s99
+package example_3.s99
 
-import data._
+import example_3.data._
 
 object P04 {
 
-    def run() = {
+    def run(): Unit = {
         println("\n========== P04 ==========")
         println(P04.length(Data.list1))
         println(P04.length(Data.list2))
@@ -20,7 +20,7 @@ object P04 {
         @annotation.tailrec
         def loop(i: Int, ls: List[A]): Int = ls match {
             case Nil => i
-            case _ :: tail => loop((i + 1), tail)
+            case _ :: tail => loop(i + 1, tail)
         }  
         loop(0, l)
     }

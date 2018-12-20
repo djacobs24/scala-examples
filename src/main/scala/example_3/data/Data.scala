@@ -1,4 +1,4 @@
-package data
+package example_3.data
 
 object Data {
 
