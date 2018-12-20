@@ -1,7 +1,5 @@
 package example_4
 
-import scala.util.control.Exception
-
 object Main {
 
   def main(args: Array[String]): Unit = {
