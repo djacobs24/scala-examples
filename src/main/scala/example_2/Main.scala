@@ -31,6 +31,12 @@ object Main {
         Lists.displayListData
 
         /**
+          * Maps
+          */
+        println("\n=====Maps=====")
+        MapsAndFlatMaps.displayMapsData
+
+        /**
          *  Mixin
          */
         println("\n=====Mixin=====") 

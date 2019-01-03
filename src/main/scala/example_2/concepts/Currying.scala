@@ -40,11 +40,11 @@ object Currying {
 
     // Since vat and service charge are unlikely to change depending on 
     // the product we can calculate the total cost like so
-    val vatApplied: Unit = finalPrice(vat) _
-    val vatAndServiceChargeApplied: Unit = vatApplied(serviceCharge)
-    val totalMicrowaveCost2: Double = vatAndServiceChargeApplied(microwaveCost)
-    val totalRefrigeratorCost2: Double = vatAndServiceChargeApplied(refrigeratorCost)
-    val totalOvenCost2: Double = vatAndServiceChargeApplied(ovenCost)
+    val vatApplied = finalPrice(vat) _
+    val vatAndServiceChargeApplied = vatApplied(serviceCharge)
+    val totalMicrowaveCost2 = vatAndServiceChargeApplied(microwaveCost)
+    val totalRefrigeratorCost2 = vatAndServiceChargeApplied(refrigeratorCost)
+    val totalOvenCost2 = vatAndServiceChargeApplied(ovenCost)
 
     // printMicrowaveCost prints the cost of the microwave
     def printMicrowaveCost() {
