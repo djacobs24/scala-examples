@@ -1,4 +1,4 @@
-# scala-examples
+# Scala Examples
 
 ## Setup
 
